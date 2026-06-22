@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.container {
+    margin-top: 70px;
+} 
+
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.book-image {
+    width: 80px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.myName {
+    color: blueviolet;
+}
