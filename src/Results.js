@@ -6,6 +6,9 @@ export default function Results(props) {
         return (
         <div className="Results">
             <h2 style={{textTransform:"capitalize"}}>{props.results.word}</h2>
+            <div className="Phonetic">
+                {props.results.phonetic}
+            </div>
             {props.results.meanings
             .slice(0, 1)
             .map(function (meaning, index) {
