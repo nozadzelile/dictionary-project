@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./Dictionary.css";
 import axios from "axios";
-import Results from "./Results"
+import Results from "./Results";
+import bookImg from './book.png';
+
 
 export default function Dictionary() {
     let [keyword, setKeyword] = useState(" ");
@@ -26,9 +28,22 @@ export default function Dictionary() {
 
     return (
         <div className="Dictionary">
+            <section>
+            <div className="Header">
+                <img src={bookImg} alt="Book" className="book-image" />
+                <h1>Dictionary</h1>
+            </div>
+            </section>
+
+            <section>
             <form onSubmit={search}>
+                <h2>Search for a word</h2>
             <input type="search" autoFocus={true} onChange={handleKeyword} />
+            <div className="hint">
+                Suggested words: wine, sleep, skyline, book... 
+            </div>
             </form>
+            </section>
             <Results results={results} />
         </div>
     )}

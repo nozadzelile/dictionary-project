@@ -1,0 +1,17 @@
+.Meaning {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.Meaning h3 {
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+.Example {
+    opacity: 0.6;
+}
+
+.Synonyms li {
+    margin-left: -20px;
+}

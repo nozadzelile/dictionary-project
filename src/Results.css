@@ -1,0 +1,20 @@
+.Results section {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0px 5px 5px rgba(176, 176, 176, 0.3);
+  max-width: 550px;
+  margin: 10px auto;
+}
+
+.Results h2 {
+    font-size: 30px;
+    
+}
+
+.Results .Phonetic {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(131, 27, 211);
+}

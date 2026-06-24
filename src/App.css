@@ -1,1 +1,16 @@
+body {
+    background: rgb(236, 230, 240);
+    font-family: 'Inter', sans-serif;
 
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.myName {
+    color: rgb(131, 27, 211);
+}

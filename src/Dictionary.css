@@ -1,28 +1,53 @@
-.App {
-  text-align: center;
+.Dictionary section {
+  padding: 20px;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0px 5px 5px rgba(176, 176, 176, 0.3);
+  max-width: 550px;
+  margin: 20px auto;
 }
 
-.container {
-    margin-top: 70px;
-} 
-
-
-h1 {
-    font-size: 30px;
+.Dictionary input {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
 }
 
-h2 {
-    font-size: 18px;
+.Dictionary .hint {
+    text-align: left;
+    font-size: 13px;
+    opacity: 0.7;
+    padding-left: 10px;
 }
 
-.book-image {
-    width: 80px;
+.Dictionary img {
+    max-width: 60px;
+    padding: 0px;
+    margin-top: 10px;
 }
 
-footer {
-    margin-top: 20px;
-    font-size: 15px;
+.Dictionary h1 {
+    margin: 10px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(131, 27, 211);
+    font-weight: 500;
 }
-.myName {
-    color: blueviolet;
+
+.Dictionary h2 {
+    font-size: 25px;
+    padding-bottom: 0;
+    margin: 0 10px;
+    font-weight: 500;
 }
+
+.Header {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
