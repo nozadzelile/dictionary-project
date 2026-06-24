@@ -1,7 +1,6 @@
 body {
-    background: rgb(236, 230, 240);
+    background: #C8C5FD;
     font-family: 'Inter', sans-serif;
-
 }
 
 footer {
@@ -12,5 +11,5 @@ footer {
 }
 
 .myName {
-    color: rgb(131, 27, 211);
+    color: #8886FE;
 }

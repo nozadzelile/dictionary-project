@@ -1,5 +1,6 @@
 import './App.css';
 import Dictionary from "./Dictionary.js";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

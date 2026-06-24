@@ -27,14 +27,12 @@
 .Dictionary img {
     max-width: 60px;
     padding: 0px;
-    margin-top: 10px;
 }
 
 .Dictionary h1 {
     margin: 10px;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(131, 27, 211);
     font-weight: 500;
 }
 
